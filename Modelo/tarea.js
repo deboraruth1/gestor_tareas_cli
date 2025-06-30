@@ -16,5 +16,5 @@ class Tarea {
   }
 }
 
-export default Tarea;
+module.exports= Tarea;
 

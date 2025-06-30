@@ -1,6 +1,6 @@
 // modelo/gestorTareas.js
-import { guardarTareas, cargarTareas } from '../Servicio/tareasStorage.js';
-import Tarea from './tarea.js';
+const { guardarTareas, cargarTareas } =requiere ( '../Servicio/tareasStorage.js');    
+const Tarea =requiere ( './tarea.js');
 
 class GestorTareas {
   constructor() {
@@ -42,4 +42,4 @@ class GestorTareas {
   }
 }
 
-export default new GestorTareas(); // Exportamos la instancia única
+module.exports= new GestorTareas(); // Exportamos la instancia única

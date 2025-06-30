@@ -1,5 +1,5 @@
 // Servicio/tareasStorage.js
-import fs from 'fs';
+const fs = requiere ('fs');
 const RUTA_ARCHIVO = './tareas.json';
 
 export function guardarTareas(tareas) {
